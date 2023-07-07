@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>The Eyes Under the Keyboard</title>
+  </head>
+  <body>
+    <div class="container-fluid bg-dark font-monospace text-light">
+      <h1 class="text-center py-2">The Eyes Under the Keyboard: Research on <b class="border-success border-bottom pb-1">Grammarly</b></h1>
+      <div class="container">
+        <h3 class="text-center">What is Grammarly?</h3>
+        <p class="text-center px-5">
+          Grammarly is a web extension that when enabled checks your grammar mistakes when typing on platforms such 
+          as google docs, microsoft word, gmail and many more! You are also able to use Grammarly's plagiarism checker
+          through their website. </p>
+      </div>
+      
+      <h2 class="text-center pb-3">Questions I asked myself when researching:</h2>
+
+      <div class="container c-border">
+        <h3 class="pt-3 pb-1 text-center">How does the company collect data?</h3>
+        <p class="px-5">
+          We know that Grammarly checks your grammar but how do they do this?
+          They need to know what you're typing in order to correct your errors,
+          therefore grammarly is essentially a keylogger. I went ahead and tested 
+          to see if Grammarly would read what I wrote on a google document when 
+          the Grammarly extension was turned off. When it was turned off, Grammarly 
+          was not checking my grammar but when I turned it back on for that same 
+          document it somehow caught all of my spelling errors even though I typed 
+          those when Grammarly was turned off! This means that Grammarly will read any
+          any text that you type on whatever interface you have open. Therefore, when 
+          you allow the software to correct grammar mistakes when composing an email, 
+          that means Grammarly has access to any email you compose and from their that 
+          text is sent to their database. The image below is Grammarly's response to if it is a keylogger:
+        </p>
+        <img src="photos/Screenshot 2022-12-07 at 2.57.42 PM.png" class="w-75 rounded mx-auto d-block pb-3" alt="Is Grammarly a keylogger? (Photo)">
+      </div>
+
+      <div class="container c-border mt-5">
+        <h3 class="pt-3 pb-1 text-center ">What they do with this data?</h3>
+        <p class="px-5">
+          The privacy policy clearly states what Grammarly does with the user data. 
+          In fact, they reach out to other third party companies and researchers to 
+          get more data on their users. What does this mean for us as users? 
+          This means that Grammarly merges data from other third party companies 
+          to build a profile on their users. The privacy policy also states that 
+          Grammarly does not sell your personal data. Yet, they say that under certain 
+          circumstances they will share our data with service providers who assist 
+          them in business operation needs. 
+        </p>
+        <img src="photos/Screenshot 2022-12-07 at 3.42.08 PM.png" class="w-75 rounded mx-auto d-block pb-3" alt="Grammarly Privacy Policy Photo">
+      </div>
+
+      <div class="container c-border mt-5">
+        <h3 class="pt-3 pb-1 text-center">How secure am I as a user?</h3>
+        <p class="px-5">
+          As of now, Grammarly users are secure but back in 2018, there was a 
+          security risk for all users using the Grammarly web extension.
+          A google security researcher and a company called <i>Sophos</i> found 
+          that Grammarly was not protecting authentication tokens meaning that the 
+          alleged third party user could observe users as they typed. All that it took 
+          to do this was just 4 lines of javascript code. This loophole risked users 
+          passwords, documents, search history and much more. After this was reported the 
+          bug was fixed within a few hours.
+        </p>
+        <img src="photos/Grammarly-Javascript-image.png" class="w-75 rounded mx-auto d-block pb-3" alt="Grammarly Privacy Policy Photo">
+        <p class="px-5">
+          Since then Grammarly has gone to great measures to ensure their users safety 
+          by implementing a bounty program for any ethical hackers who can find and report 
+          bugs within their software. To this day Grammarly has payed roughly $200,000 in 
+          bounties to people who have found bugs within their software. For anyone 
+          interested in finding bugs themselves you can report them to Grammarly's page 
+          on HackerOne and hopefully recieve some compensation in return. 
+          <a href="https://hackerone.com/grammarly" class="text-center text-success">https://hackerone.com/grammarly</a>
+        </p>
+        <img src="photos/Grammarly-HackerOne-Image.png" class="w-75 rounded mx-auto d-block pb-3" alt="Grammarly Privacy Policy Photo">
+
+      </div>
+      
+      
+    </div>
+
+  </body>
+</html>
